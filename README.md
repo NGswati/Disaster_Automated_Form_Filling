@@ -50,19 +50,22 @@ Place your input CSV file in the same directory as the script.
 Update the input and output file names in the script:
 pythonCopyfile_ = open("your_input_file.csv", "r", encoding="utf8", errors='replace').read()
 pythonCopywith open("your_output_file.csv", "w", encoding="utf8", errors='replace') as file:
-
-- Run the script:
+Run the script:
 python tweet_preprocessing.py
 
 The processed tweets will be saved in the output file specified.
 
 ## Customization
 You can customize the preprocessing steps by modifying the processing_functions list in the script. Add or remove functions as needed for your specific use case.
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 This README provides a comprehensive overview of the tweet preprocessing tool, including its features, setup instructions, and usage guide. It's formatted in a way that's easy to read on GitHub and provides potential users with all the necessary information to get started with the tool.
+
 
 # Disaster Tweet Classification
 
